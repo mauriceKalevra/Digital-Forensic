@@ -40,7 +40,23 @@ touch -t YYYYMMDDHHMM.SS filename
 
 
 1.2) 
+Alle Dateien besitzen die gleiche Uhrzeit... Die Uhrzeit der Datei wird ab Anlegung der Datei auf Basis der Systemzeit 'gestartet'
 
+1.3)
+Windows versucht automatisch alle Partitionen und Volumes die es endeckt mit Hilfe des Programms **Mountvol** einzubinden.  Die einbindung ist allerdings immer im Lese und Schreibmodus!
+Mit dem Windows Kommando 'MOUNTVOL /N' wird das automatische Einbinden mit Mountvol deaktiviert. Nun kann man mit Tools wie Diskpart das Volume auf Read-only konfigurieren, mit : 'ATTRIBUTES VOLUME SET READONLY' 
 
+Linux verwendet Mount um Volumes einzubinden. Wenn nicht anders Konfiguriert, wird auch hier automatisch im Read/Write modus einngebunden. So muss man angeschlossene Volumes 'remounten' wenn diese ReadOnly sein sollten. 
+Volume zu readonly remounten: Name des Volumes heruaszufinden, zB. sda1 : $ lsblk -e 7  
+			      Volume sda1 in readonly mounten		: $ sudo mount -r /dev/sda1 /location/to/mount/partition/
+			        
+Um dauerhaft Volumes und Dateisysteme mit Readonly zu mounten, muss das die Datei /etc/fstab entsprechen angepasst werden.
+Hier muss für das jeweilige Volume die Readonly-Flag in der mount line hinzugefügt werden und das File anschließend gespeichert werden.
 
+2.1) 
+Virtuelles 50 mb Laufwerk mit dd erstellen: sudo dd if=/dev/zero of=Nameofimage.img bs=1M count=50
+Dieses kann nun mit fdik Nameofimage.img eingebunden werden.
 
+2.2) md5sum MyImage.img
+
+2.3) 
