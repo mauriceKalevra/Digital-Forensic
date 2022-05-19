@@ -59,4 +59,4 @@ Dieses kann nun mit fdik Nameofimage.img eingebunden werden.
 
 2.2) md5sum MyImage.img
 
-2.3) 
+2.3) Es wurden mehrere jpg Bilder gefunden, sowie Texte und Emails. 
