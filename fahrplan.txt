@@ -1,3 +1,6 @@
+Beschlagnahmung:
+- Erhaltung des Images
+
 Sicheung:
 - Kopie erstellen
 - Haswert abgleichen
@@ -18,3 +21,9 @@ Reduktion:
 - Irrelevante Daten elimieren
 - Nur auf relevante Daten eingrenzen
 
+Strukturierung:
+- Organisation der Daten nach der Redukstion
+- Ersttellung von Indizes und Übersichten
+
+Analyse:
+- Verbindung herstellen
