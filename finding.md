@@ -1,0 +1,9 @@
+Mit Autopsy werden über 3570 gelöschte Dateien angezeigt...
+Diese werden nun anhand von File carving in Forensic explorer wiederhergestellt.
+Unter den Dateien befindet sich Beweismaterial...
+  
+Des weiteren werden von Autopsy Web cookies gefunden, die auf besuchte webseiten hinweißen.. darunter unter anderem web.de etc...
+  
+Zudem kann der Browser Verlauf ausgelesen werden!
+
+

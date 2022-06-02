@@ -1,0 +1,20 @@
+Sicheung:
+- Kopie erstellen
+- Haswert abgleichen
+- Metadaaten auslesen und Dokumentieren
+- Hashwerten von vorraussichtlich relevanten Dateien/Data chunks erstellen
+
+Bergung:
+- Gelöschte bzw. versteckte Daten finden
+- File carving
+- Ordner durchsuchen
+
+
+Auswertung:
+- Organisation der Datenmengen aufgrund von Metadaten
+- Gruppierung von Daten (Zugrifsszeit/rechte etc...)
+
+Reduktion:
+- Irrelevante Daten elimieren
+- Nur auf relevante Daten eingrenzen
+
