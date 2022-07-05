@@ -2,10 +2,6 @@
 
 function randomChange() {
 
-	
-	echo "Eingabe höhe Github Skyline: "
-	read height
-
 	l=15
 	[ -n "$1" ] && l=$1
 	[ -n "$2" ] && l=$(shuf --random-source=/dev/urandom -i $1-$2 -n 1)
@@ -14,6 +10,17 @@ function randomChange() {
 	git add .
 	git commit -m "build Github Skyline"
 	git push
+	sleep 5
 }
 
-randomChange
+function execTimes() {
+
+	echo "Anzahl an Ausführungen :"
+	read times
+
+	for ((i=0; i<=$times;i++)); do
+		randomChange
+	done
+}
+
+execTimes
