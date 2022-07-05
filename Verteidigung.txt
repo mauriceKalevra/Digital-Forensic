@@ -1,0 +1,56 @@
+Seite 2:
+- Wie und zu welchem Zeitpunkt wurden die Asservate ausgehändigt?
+- Unter welchem Vorwand
+
+- Auf welchen Geräten wurden die Assservate untersucht?
+
+- Waren die Geräte auf denen das Gutachten durchgeführt wurde, geschützt vor Zugang von dritten?
+
+Seite 3:
+- Sind die Bezichnungen bewusst flasch geschrieben?
+
+- Was bedeuted ein bösartiger hashvalue?
+
+Seite 4:
+
+- Wie genau wurde die Email ermittelt und ausgelesen?
+
+- Wie kamen die Gutachter auf diese Pfad quelle?
+
+Seite 5:
+- Was ist VBA?
+
+- WAs macht dieses Skript malicious?
+
+Seite 6-7:
+
+- In wie fern sind die Ip Adressen sicher zuweisbar?
+
+Seite 8:
+
+- Was sind crypt Dateien?
+
+- Was genau war der Indikator?
+
+- Wieso wird das für möglich errachtet?
+
+Seite 9:
+
+- Könnte man Sysmonlogs fälschen und wenn ja wie?
+
+Seite 10:
+- Was hätte auf dem Webserver gefunden werden können?
+
+Seite 11:
+
+- Gibt es Beweise für die Ausführung dieser Dateien?
+
+- Könnte der Verlauf genauer erläutert werden?
+
+- Die Formulierungen und Beweisführung ist zu voreingenommen.
+
+- Die Beweislast ist zu niedrig?
+
+- Der Browserverlauf könnte auch durch private Zwecke erklärt werden.
+
+
