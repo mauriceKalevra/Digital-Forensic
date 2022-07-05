@@ -10,7 +10,7 @@ function randomChange() {
 	git add .
 	git commit -m "build Github Skyline"
 	git push
-	sleep 5
+	sleep 3
 }
 
 function execTimes() {
